@@ -2,11 +2,14 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Layout from "./components/layout";
 import NotFound from "./pages/_404";
 import Home from "./pages/beranda";
+import OnBoarding from "./pages/onboarding";
 
 function App() {
     return (
         <BrowserRouter>
             <Routes>
+                <Route path="onboarding" element={<OnBoarding />} />
+
                 <Route path="/" element={<Layout />} >
                     <Route index element={<Home />} />
                 </Route>
