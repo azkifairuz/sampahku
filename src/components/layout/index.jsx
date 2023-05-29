@@ -4,7 +4,7 @@ import { Outlet } from 'react-router-dom'
 
 export default function Layout() {
     return(
-        <div className=''>
+        <div className='md:max-w-sm md:mx-auto'>
             <Navbar/>
             <Outlet/>
         </div>
