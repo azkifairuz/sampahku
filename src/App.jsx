@@ -1,8 +1,9 @@
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import {Routes, Route } from "react-router-dom";
+import Layout from "./components/layout";
 
 function App() {
     <Routes>
-        <Route path="/" element>
+        <Route path="/" element={Layout}>
             
         </Route>
     </Routes>
