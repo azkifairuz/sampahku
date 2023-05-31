@@ -9,15 +9,24 @@ export default function Singup() {
       </div>
       <div>
         <div className=" border border-b border-b-black text-center w-[88px] text-[16px] leading-[32px]">
-          Masuk
+          Daftar
         </div>
-        <div className="text-[12px]">Login/daftarkan akun anda</div>
+        <div className="text-[12px]">Silahkan isi data dibawah ini</div>
       </div>
       <div className="w-full mx-auto flex flex-col gap-[20px] justify-center px-10 bg-blueMain p-5 rounded-lg">
-        <h1 className="text-white text-center text-[15px] border-b border-b-white">
-          Selamat Datang Di sampahku
-        </h1>
         <form action="" className="flex justify-center flex-col gap-[10px]">
+          <div className="flex flex-col gap-[11px]">
+            <label htmlFor="username" className="text-white text-[13px]">
+              Username
+            </label>
+            <input
+              className="rounded-[12px] w-[249px] outline-none text-[13px] bg-white h-[35px] p-1"
+              type="text"
+              id="username"
+              name="username"
+              placeholder="Masukan Nama Anda"
+            />
+          </div>
           <div className="flex flex-col gap-[11px]">
             <label htmlFor="email" className="text-white text-[13px]">
               Email

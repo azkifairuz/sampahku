@@ -23,7 +23,7 @@ export default function Login() {
               Email
             </label>
             <input
-              className="rounded-[12px] outline-none text-[13px] bg-white h-[35px] p-2"
+              className="rounded-[12px] outline-none text-[13px] bg-white h-[35px] p-[5px]"
               type="text"
               id="email"
               name="email"
@@ -35,11 +35,10 @@ export default function Login() {
               Password
             </label>
             <input
-              className="rounded-[12px] outline-none text-[13px] bg-white h-[35px] p-2"
+              className="rounded-[12px] outline-none text-[13px] placeholder-text-[13px] bg-white  p-[5px]"
               type="password"
               id="pw"
               name="pw"
-              placeholder="Masukan Password"
             />
             <p className="self-end text-white text-[13px]">Lupa Password?</p>
           </div>
@@ -47,10 +46,10 @@ export default function Login() {
         <div className="flex flex-col  gap-[20px] text-center">
           <p className="text-white text-[13px]">Atau</p>
           <h1 className="text-white text-[12px]">
-            Belum Memiliki Akun?{" "}
+            Belum Memiliki Akun?
             <span
               onClick={() => {
-                navigate("singup");
+                navigate("/signup");
               }}
               className="text-[#49C185] cursor-pointer"
             >
