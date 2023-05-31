@@ -4,6 +4,7 @@ import NotFound from "./pages/_404";
 import Home from "./pages/beranda";
 import OnBoarding from "./pages/onboarding";
 import Login from "./pages/login";
+import Singup from "./pages/signup";
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
             <Routes>
                 <Route path="onboarding" element={<OnBoarding />} />
                 <Route path="login" element={<Login />} />
+                <Route path="signup" element={<Singup />} />
                 <Route path="/" element={<Layout />} >
                     <Route index element={<Home />} />
                 </Route>
