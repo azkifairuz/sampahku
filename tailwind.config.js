@@ -9,6 +9,9 @@ module.exports = {
         greenMain:'#25B56D',
         blueMain:'#025464',
         surface:'#F8F1F1'
+      },
+      fontFamily:{
+        poppins:["Poppins","sans-serif"]
       }
     },
   },

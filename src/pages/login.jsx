@@ -23,7 +23,7 @@ export default function Login() {
               Email
             </label>
             <input
-              className="rounded-[12px] outline-none text-[13px] bg-white h-[35px] p-[5px]"
+              className="rounded-[12px] outline-none text-[13px] placeholder-text-[13px] bg-white  p-[5px]"
               type="text"
               id="email"
               name="email"
@@ -40,7 +40,7 @@ export default function Login() {
               id="pw"
               name="pw"
             />
-            <p className="self-end text-white text-[13px]">Lupa Password?</p>
+            <p className="self-end text-white text-[13px] cursor-pointer">Lupa Password?</p>
           </div>
         </form>
         <div className="flex flex-col  gap-[20px] text-center">
@@ -62,7 +62,7 @@ export default function Login() {
         onClick={() => {
           navigate("/");
         }}
-        className="rounded-full w-fit p-3 bg-blueMain self-end text-white "
+        className="rounded-full w-fit p-3 bg-blueMain self-end text-[13px] text-white "
       >
         Selanjutnya
       </button>
