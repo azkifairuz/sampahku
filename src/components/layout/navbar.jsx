@@ -25,7 +25,7 @@ export default function Navbar() {
         },
     ]
     return (
-        <div className="py-6 px-[26px] max-w-sm w-full text-white justify-around items-center fixed bottom-0 bg-blueMain flex gap-[58px]">
+        <div className="py-6 px-10 max-w-sm w-full text-white justify-around items-center fixed bottom-0 bg-blueMain flex gap-[58px]">
             {
                 itemNavbar.map((item) => {
                     return (
