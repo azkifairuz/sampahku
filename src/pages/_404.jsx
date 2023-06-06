@@ -1,5 +1,8 @@
 export default function NotFound() {
     return (
-        <h1>Not Found</h1>
+        <div className="mx-auto">
+            <h1>Halaman Tidak ditemukan</h1>
+
+        </div>
     )
 }

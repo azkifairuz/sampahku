@@ -8,7 +8,8 @@ module.exports = {
       colors: {
         greenMain:'#25B56D',
         blueMain:'#025464',
-        surface:'#F8F1F1'
+        surface:'#F8F1F1',
+        molecular:{orange:'#E57C23'}
       },
       fontFamily:{
         poppins:["Poppins","sans-serif"]
