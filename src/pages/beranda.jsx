@@ -10,11 +10,11 @@ export default function Home(props) {
                     <div className="flex gap-16  text-center w-full">
                         <div >
                             <h1 className="font-bold text-sm">Saldo</h1>
-                            <p>{saldo}</p>
+                            <p>Rp.{saldo}</p>
                         </div>
                         <div>
                             <h1 className="font-bold text-sm">Poin</h1>
-                            <p>{poin}</p>
+                            <p>{poin} Poin</p>
                         </div>
                         <div>
                             <h1 className="font-bold text-sm">Transaksi</h1>
@@ -42,6 +42,24 @@ export default function Home(props) {
                     </div>
                 </section>
                 {/* end category section */}
+                {/* pojok literasi section */}
+                <section className="w-full flex flex-col px-2 gap-4">
+                    <h1 className="text-sm font-poppins px-5 font-bold text-blueMain">Pojok Literasi</h1>
+                    <div className="w-full grid grid-flow-col gap-2 overflow-x-scroll">
+                            <div className="w-[198px] h-[112px] bg-slate-400 rounded-xl">
+
+                            </div>
+                            <div className="w-[198px] h-[112px] bg-slate-400 rounded-xl">
+
+                            </div>
+                            <div className="w-[198px] h-[112px] bg-slate-400 rounded-xl">
+
+                            </div>
+                            <div className="w-[198px] h-[112px] bg-slate-400 rounded-xl">
+
+                            </div>
+                    </div>
+                </section>
                 
             </div>
         </>
